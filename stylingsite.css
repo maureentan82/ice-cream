@@ -7,10 +7,6 @@
 }
 
 header,nav,main,footer{
-    border: 10px solid transparent;
+    border: 10px solid black;
     padding:15px;
-    border-image-source: url(images/frostingborder.png);
-    border-image-repeat:round;
-    border-image-slice: 90;
-    border-image-width: 20px;
 }
