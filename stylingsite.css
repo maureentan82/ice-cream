@@ -5,3 +5,12 @@
     grid-gap:10px;
     grid-template-columns: 250px minmax(0,1fr);
 }
+
+header,nav,main,footer{
+    border: 10px solid transparent;
+    padding:15px;
+    border-image-source: url(images/frostingborder.png);
+    border-image-repeat:round;
+    border-image-slice: 90;
+    border-image-width: 20px;
+}
