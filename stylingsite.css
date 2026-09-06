@@ -46,12 +46,12 @@ a{
 
 @font-face{
     font-family:"cheri";
-    src:url("cheri.ttf");
+    src:url("fonts/cheri.ttf");
 }
 
 @font-face{
     font-family:"babydoll";
-    src:url("babydoll.ttf");
+    src:url("fonts/babydoll.ttf");
 }
 
 button{
@@ -66,13 +66,14 @@ img{
 header{
     background: var(--primary-color);
     margin: 0 auto;
-    padding: 0px 30px;
+    padding: 0px 65px;
     max-width: var(--site-max-width);
 }
 
+
 .navbar{
     display: flex;
-    padding: 30px;
+    padding: 15px;
     align-items: center;
     justify-content:space-between;
 }
@@ -83,10 +84,7 @@ header{
     font-weight: var(--font-weight-semibold);
 }
 
-.logo-text{
-    font-family: "cheri";
-    font-size: 50px;
-}
+
 
 .navbar, .nav-menu{
     display: flex;
