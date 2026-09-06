@@ -31,6 +31,44 @@
     --site-max-width: 1300px;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor:pointer;
+    border: none;
+    background: none;
+}
+
+img{
+    width:100%;
+}
+
+
 header{
     background: var(--primary-color);
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navbar, .navlogo, .logo-text{
+    color: var(--white-color);
+}
+
+.navbar, .navmenu{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar, .navmenu, .nav-link{
+    color: var(--white-color)
 }
