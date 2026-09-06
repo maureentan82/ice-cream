@@ -4,6 +4,7 @@
     box-sizing:border-box;
 }
 
+
 :root{
     --white-color: #fff;
     --dark-color: #252525;
@@ -39,6 +40,11 @@ a{
     text-decoration: none;
 }
 
+@font-face{
+    font-family:"dino";
+    src:url("DinosaurCakeDEMO.otf");
+}
+
 button{
     cursor:pointer;
     border: none;
@@ -49,12 +55,14 @@ img{
     width:100%;
 }
 
-
 header{
     background: var(--primary-color);
+    margin: 0 auto;
+    padding: 0px 30px;
+    max-width: var(--site-max-width);
 }
 
-header .navbar{
+.navbar{
     display: flex;
     padding: 30px;
     align-items: center;
