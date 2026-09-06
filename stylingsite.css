@@ -8,8 +8,8 @@
 :root{
     --white-color: #fff;
     --dark-color: #252525;
-    --primary-color: #3b141c;
-    --secondary-color: #f3961c;
+    --primary-color: #ff6c8e;
+    --secondary-color: #f3e11c;
     --light-pink-color: #faf4f5;
     --medium-gray-color: #ccc;
 
@@ -41,8 +41,8 @@ a{
 }
 
 @font-face{
-    font-family:"dino";
-    src:url("DinosaurCakeDEMO.otf");
+    font-family:"cheri";
+    src:url("cheri.ttf");
 }
 
 button{
@@ -75,6 +75,11 @@ header{
     font-weight: var(--font-weight-semibold);
 }
 
+.logo-text{
+    font-family: "cheri";
+    font-size: 50px;
+}
+
 .navbar, .nav-menu{
     display: flex;
     gap: 10px;
@@ -91,5 +96,5 @@ header{
 
 .nav-link:hover{
     color: var(--primary-color);
-    background: var(--secondary-color);
+    background: var(--white-color);
 }
