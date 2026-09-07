@@ -106,3 +106,16 @@ header{
     background: var(--white-color);
     box-shadow: 0px 0px 10px rgba(255, 255, 125, 0.7);
 }
+
+.hero-section {
+    min-height: 100vh;
+    background: var(--primary-color);
+}
+
+.hero-section .section-content {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--white-color);
+    justify-content: space-between;
+}
