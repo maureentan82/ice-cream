@@ -11,8 +11,8 @@
 }
 
 body{
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    background-color: #ffb6c7;
+    background: linear-gradient(to right, #fff, #ffb6c7);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@ body{
 .container{
     background-color: #fff;
     border-radius: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0px 10px rgba(255, 255, 125, 0.7); 
     position: relative;
     overflow: hidden;
     width: 768px;
@@ -43,7 +43,7 @@ body{
 }
 
 .container a{
-    color: #333;
+    color: #ff527a;
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
@@ -210,4 +210,8 @@ body{
 
 .container.active .toggle-right{
     transform: translateX(200%);
+}
+
+.pink{
+    color:#ff6c8e;
 }
