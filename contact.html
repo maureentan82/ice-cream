@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact us!</title>
+        <link rel="stylesheet" href="stylingcontact.css">
+        <link rel="icon" href="pic/bunny.gif">
+    </head>
+
+    <body>
+         <header>
+               <nav class="navbar">
+                    <a href="site.html" class="nav-logo">
+                        <img class="logo-img" src="pic/yummy.png" width="200px" height="80px">
+                    </a>
+                    <ul class ="nav-menu">
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="menu.html" class="nav-link">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="locations.html" class="nav-link">LOCATIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="signin.html" class="nav-link">SIGN IN</a>
+                        </li>
+                    </ul>
+                </nav>
+             </header>
+             
+        <div class="container">
+            <h1>Connect with us</h1>
+            <p>Feel free to reach out!</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Sent your request</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="427016d7-025d-4de4-9657-ed536b7fa0b1">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" name="phone" placeholder="Your Phone Number" class="contact-inputs" required>
+                            </div>
+                        </div>
+
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" name="subject" placeholder="Subject of Email" class="contact-inputs" required>
+                            </div>
+                        </div>
+                           
+                        <label>Message</label>
+                        <textarea rows="5" name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach us</h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>yummyicecream2067@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+1 (678)350-6451</td>
+                        </tr>
+                        <tr>
+                            <td>Central Address</td>
+                            <td>State Bridge Rd, Johns Creek, GA 30022</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
