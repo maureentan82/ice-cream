@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "babydoll";
+    cursor: url("pic/angelwings.png"), auto;
 }
 
 @font-face{
@@ -87,6 +88,52 @@ body{
     border-radius: 8px;
     width: 100%;
     outline:none;
+}
+
+#input1-sign-in{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-10px);
+    font-size: 13px;
+    color:#616161;
+}
+
+#input2-sign-in{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(40px);
+    font-size: 13px;
+    color:#616161;
+}
+
+
+#input1-sign-up{
+    position: absolute;
+    right: 50px;
+    top: 35%;
+    transform: translateY(55px);
+    font-size: 13px;
+    color:#616161;
+}
+
+#input2-sign-up{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(35px);
+    font-size: 13px;
+    color:#616161;
+}
+
+#input3-sign-up{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(85px);
+    font-size: 13px;
+    color:#616161;
 }
 
 .form-container{
