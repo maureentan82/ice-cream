@@ -11,6 +11,15 @@
     src:url("fonts/babydoll.ttf");
 }
 
+@font-face{
+    font-family:"cheri";
+    src:url("fonts/cheri.ttf");
+}
+
+#toggle-title{
+    font-family:"cheri";
+}
+
 body{
     background-color: #ffb6c7;
     background: linear-gradient(to right, #fff, #ffb6c7);
