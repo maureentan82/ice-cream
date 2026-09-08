@@ -159,5 +159,12 @@ header{
     transition: 0.3s ease;
 }
 
+html {
+    scrollbar-color: var(--primary-color) var(--white-color);
+    /* Track / Background Color */
+    scrollbar-width: auto;
+    /* Options: auto, thin */
+}
+
 
     
