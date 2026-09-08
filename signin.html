@@ -10,7 +10,7 @@
     <body>
         <div class="container" id="container">
             <div class="form-container sign-up">
-                <form>
+                <form action="">
                     <h1 class="pink">Create Account</h1>
                     <div class="social-icons">
                         <a href="#" class="icon">
@@ -27,13 +27,13 @@
                         </a>
                     </div>
                     <span class="pink">or use your email for registration</span>
-                    <input type="text" placeholder="Name" />
+                    <input type="text" name="name" placeholder="Name" required />
                         <i class="fa-solid fa-user" id="input1-sign-up"></i>
-                    <input type="email" placeholder="Email" />
+                    <input type="email" name="email" placeholder="Email" required/>
                         <i class="fa-solid fa-envelope" id="input2-sign-up"></i>
-                    <input type="password" placeholder="Password" />
+                    <input type="password" name="password" placeholder="Password" required />
                         <i class="fa-solid fa-lock" id="input3-sign-up"></i>
-                    <button>Sign Up</button>
+                    <button type="submit" name="register">Sign Up</button>
                 </form>
             </div>
             <div class="form-container sign-in">
@@ -54,13 +54,13 @@
                         </a>
                     </div>
                     <span class="pink">or use your email and password</span>
-                        <input type="email" placeholder="Email" />
+                        <input type="email" name="email" placeholder="Email" required/>
                             <i class="fa-solid fa-envelope" id="input1-sign-in"></i>
-                        <input type="password" placeholder="Password" />
+                        <input type="password" name="password" placeholder="Password" required/>
                             <i class="fa-solid fa-lock" id="input2-sign-in"></i>
             
                     <a href="#" class="pink">Forgot Your Password?</a>
-                    <button>Sign In</button>
+                    <button type="submit" name="login">Sign In</button>
                 </form>
             </div>
             <div class="toggle-container">

@@ -61,6 +61,7 @@ body{
 
 .container button{
     background-color: #ff6c8e;
+    opacity: 80%;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -70,7 +71,13 @@ body{
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-top: 10px;
-    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.form-container button:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 125, 1); 
+    transform: scale(1.1);
+    opacity: 100%;
 }
 
 .container button.hidden{
