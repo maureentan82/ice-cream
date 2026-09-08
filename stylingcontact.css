@@ -7,7 +7,7 @@
     --white-color: #fff;
     --dark-color: #252525;
     --primary-color: #ff6c8e;
-    --secondary-color: #f3e11c;
+    --secondary-color: #ffd971;
     --light-pink-color: #faf4f5;
     --medium-gray-color: #ccc;
 
@@ -46,6 +46,11 @@ a{
 @font-face{
     font-family:"babydoll";
     src:url("fonts/babydoll.ttf");
+}
+
+@font-face {
+    font-family: "soopafresh";
+    src: url(fonts/soopafre.ttf);
 }
 
 .nav-link button{
@@ -106,13 +111,30 @@ body{
     font-size: 14px;
 }
 
+h1{
+    font-family: "cheri";
+    font-size: 50px;
+    color: var(--secondary-color);
+    text-shadow: 
+        -2.5px -2.5px 0 #ff6c8e,
+         2.5px -2.5px 0 #ff6c8e,
+        -2.5px  2.5px 0 #ff6c8e,
+         2.5px  2.5px 0 #ff6c8e;
+}
+
+h3{
+    font-family: "babydoll";
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
 .container{
     width: 80%;
     margin: 50px auto;
 }
 
 .contact-box{
-    background: #fff;
+    background: var(--white-color);
     display: flex;
 }
 
@@ -124,8 +146,8 @@ body{
 .contact-right{
     flex-basis: 40%;
     padding: 40px;
-    background: #1c00b5;
-    color: #fff;
+    background: var(--primary-color);
+    color: var(--white-color);
 }
 
 h1{
@@ -165,23 +187,30 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: #1c00b5;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-family:"soopafresh";
 }
 
 button{
-    background: #1c00b5;
+    background: var(--primary-color);
     width: 100px;
     border: none;
-    color: #fff;
+    color: var(--white-color);
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
-    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(255, 255, 125, 1); 
 }
 
 .contact-left h3{
-    color:#1c00b5;
+    color: var(--primary-color);
     font-weight: 660;
     margin-bottom: 30px;
 }
@@ -197,5 +226,13 @@ tr td:first-child{
 
 tr td{
     padding-top: 20px;
+}
+
+.text{
+    font-family:"babydoll";
+}
+
+.title{
+    font-family: "soopafresh";
 }
 
