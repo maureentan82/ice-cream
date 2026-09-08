@@ -1,6 +1,6 @@
 .menu-section {
     color: #ff6c8e;
-    background: var(white);
+    background: white;
     padding: 50px;
 }
 .menu-section .menu-list {
@@ -12,7 +12,6 @@ justify-content: space-between;
 padding: 0;
 list-style: none;
 }
-
 
 .menu-section .menu-list .menu-item {
     display: flex;
@@ -28,19 +27,37 @@ list-style: none;
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family:"cheri";
+    src: url(fonts/cheri.ttf);
+}
+
+@font-face {
+    font-family:"babydoll";
+    src: url(fonts/babydoll.ttf);
+}
+
+@font-face{
+    font-family:"soopafresh";
+    src: url(fonts/soopafre.ttf);
+}
+
 .section-title {
     text-align: center;
     font-size: 40px;
     margin-bottom: 40px;
+    font-family:"cheri"; 
 }
 
 .name {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family:"soopafresh";
 }
 
 .text {
     font-size: 16px;
+    font-family:"babydoll";
 }
 
 
@@ -52,7 +69,6 @@ font-weight: var(--font-weight-semibold);
 }
 
 @media screen and (max-width: 1024px) {
-    
     
     .menu-section .menu-list {
         gap: 60px;
@@ -71,4 +87,8 @@ font-weight: var(--font-weight-semibold);
 
 .features li {
     margin: 5px 0;
+}
+
+li{
+    font-family:"cheri";
 }
