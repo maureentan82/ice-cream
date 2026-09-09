@@ -74,14 +74,20 @@ header{
     justify-content:space-between;
 }
 
-.navbar, .navlogo, .logo-text{
+.navbar, .logo-text{
     color: var(--white-color);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
 }
 
 
-.navbar, .nav-menu{
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
     display: flex;
     gap: 10px;
 }

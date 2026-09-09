@@ -86,7 +86,7 @@ header{
     justify-content: space-between;
 }
 
-.navbar, .navlogo, .logo-text{
+.navbar, .logo-text{
     color: var(--white-color);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
