@@ -143,8 +143,10 @@ header{
 .hero-section .hero-details .subtitle {
     margin-top: 8px;
     max-width: 70%;
-    font-size: var(--font-size-xl);
+    font-size: 25px;
     font-weight: var(--font-weight-semibold);
+    font-style: italic;
+    font-family: "babydoll";
 }
 
 .hero-section .hero-details .description {
