@@ -8,30 +8,17 @@
     cursor: url("pic/angelwings.png"), auto;
 }
 
-
 :root{
     --white-color: #fff;
-    --dark-color: #252525;
     --primary-color: #ff6c8e;
     --secondary-color: #ffd971;
-    --light-pink-color: #faf4f5;
-    --medium-gray-color: #ccc;
 
-    --font-size-s: 0.9rem;
-    --font-size-n: 1rem;
     --font-size-m: 1.12rem;
-    --font-size-l: 1.5 rem;
     --font-size-xl: 2rem;
-    --font-size-xxl: 2.3rem;
 
-    --font-weight-normal: 400;
-    --font-weight-medium: 500;
     --font-weight-semibold: 600;
-    --font-weight-bold: 700;
 
-    --border-radius-s: 8px;
     --border-radius-m: 30px;
-    --border-radius-circle: 50%;
 
     --site-max-width: 1300px;
 }
@@ -91,7 +78,6 @@ header{
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
 }
-
 
 
 .navbar, .nav-menu{
@@ -191,9 +177,7 @@ header{
 
 html {
     scrollbar-color: var(--white-color) var(--secondary-color);
-    /* Track / Background Color */
     scrollbar-width: auto;
-    /* Options: auto, thin */
 }
 
 .social-link-list {

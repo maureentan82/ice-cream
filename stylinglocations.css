@@ -7,27 +7,14 @@
 
 :root{
     --white-color: #fff;
-    --dark-color: #252525;
     --primary-color: #ff6c8e;
-    --secondary-color: #f3e11c;
-    --light-pink-color: #faf4f5;
-    --medium-gray-color: #ccc;
 
-    --font-size-s: 0.9rem;
-    --font-size-n: 1rem;
     --font-size-m: 1.12rem;
-    --font-size-l: 1.5rem;
     --font-size-xl: 2rem;
-    --font-size-xxl: 2.3rem;
 
-    --font-weight-normal: 400;
-    --font-weight-medium: 500;
     --font-weight-semibold: 600;
-    --font-weight-bold: 700;
 
-    --border-radius-s: 8px;
     --border-radius-m: 30px;
-    --border-radius-circle: 50%;
 
     --site-max-width: 1300px;
 }
